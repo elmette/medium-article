@@ -1,0 +1,75 @@
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;font-family: 'Raleway', sans-serif;
+  color: #A0A0A0;
+  font-size: 18px;
+  display: block;
+  font-size: 1.5em;
+}
+
+.container{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  line-height: 1.1rem
+  text-align: justify;
+  /* padding: 20px; */
+  max-width: 700px;
+  margin: 50px auto;
+
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 576px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 992px;
+  }
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  font-size: 40px;
+}
+ .banner h1{
+  color: white
+ }
+ .banner p1{
+  font-size: 25px;
+  color: white
+ }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.link-medium{
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  font-size: 25px;
+  color: #636363;
+  font-style: italic;
+  font-family: 'Lora', serif;
+}
+.link-medium:hover{
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
